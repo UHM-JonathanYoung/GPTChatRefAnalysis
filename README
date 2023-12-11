@@ -25,10 +25,12 @@ Preparing Your Data
 
     Prepare your chat transcript file. Each line of the file should contain one chat transcript including the initial question, which may require preprocessing of LibChat data, for example.
     Ensure that all sensitive information (like email addresses or usernames) is removed or anonymized to meet privacy and ethical standards.
+    The input_file.txt should be in UTF-16 encoding.
 
 Customizing Analysis
 
     In the notebook, specify the coding scale you wish to use (e.g., READ scale) in the designated section.
+    Additional instructions and clarifications should be included in the prompt, as well as desired output format.
     Follow the instructions in the notebook to run the analysis.
 
 License
