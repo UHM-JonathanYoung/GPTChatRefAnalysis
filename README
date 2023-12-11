@@ -1,0 +1,40 @@
+GPT-4 Text Analysis Notebook
+Jonathan Young
+University of Hawaii at Manoa Library
+
+Description
+
+This project is a Jupyter Notebook that leverages the GPT-4 API to analyze chat transcript files. Each line of the provided text file, containing individual chat transcripts, is processed by the GPT-4 API to return insightful analyses. Users can customize the analysis by specifying a coding scale, such as the READ scale, and must ensure that their data meets privacy and ethical standards before analysis.
+Preliminary testing shows that GPT-4 can return accurate coding on a modified READ scale with 96% accuracy.
+
+Getting Started
+Prerequisites
+
+    Python 3.x
+    Jupyter Notebook
+    Internet connection for API access
+    OpenAI API key (GPT-4)
+
+Usage
+Setting Up Your API Key
+
+    Obtain your GPT-4 API key from OpenAI.  GPT-3.5 can also function, but with greatly reduced accuracy.
+    In the notebook, replace YOUR_API_KEY_HERE with your actual API key.
+
+Preparing Your Data
+
+    Prepare your chat transcript file. Each line of the file should contain one chat transcript including the initial question, which may require preprocessing of LibChat data, for example.
+    Ensure that all sensitive information (like email addresses or usernames) is removed or anonymized to meet privacy and ethical standards.
+
+Customizing Analysis
+
+    In the notebook, specify the coding scale you wish to use (e.g., READ scale) in the designated section.
+    Follow the instructions in the notebook to run the analysis.
+
+License
+
+This project is licensed under the Creative Commons CC-BY license - see the LICENSE file for details.
+
+Contact
+
+For any queries or further assistance, please contact jsyoung@hawaii.edu
